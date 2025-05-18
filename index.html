@@ -20,11 +20,35 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.social-login {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.social-btn {
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.facebook { background-color: #3b5998; color: white; }
+.twitter { background-color: #1da1f2; color: white; }
+.google { background-color: #db4437; color: white; }
     </style>
 </head>
 <body>
     <h1>Обо мне</h1>
     <p>Привет! Меня зовут Эмиль. Я преподаю английский язык.</p>
     <button id="subscribe-btn">Подписаться на новости</button>
+    <div class="social-login">
+        <h3>Войти через социальные сети</h3>
+        <button class="social-btn facebook">Facebook</button>
+        <button class="social-btn twitter">Twitter</button>
+        <button class="social-btn google">Google</button>
+    </div>
 </body>
 </html>
